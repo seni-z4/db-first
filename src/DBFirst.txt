@@ -1,0 +1,13 @@
+
+nome tabella : AutoUsato
+
+id                            MEDIUMINT UNSIGNED       NOT_NULL   AUTOINCREMENT          PRIMARY_KEY    [UNIQUE]
+modello                       VARCHAR(100)             NOT_NULL               
+motore                        VARCHAR(50)              NOT_NULL                  
+data_di_immatricolazione      DATE                     NOT_NULL 
+km_percosi                    TINYINT UNSIGNED         NOT_NULL                           
+prezzo                        TINYINT UNSIGNED         NOT_NULL                       
+concessionario                VARCHAR(200)             NULL                           
+tipo_di_cambio                VARCHAR(20)              NOT_NULL                          
+targa                         VARCHAR(8)               NULL                 
+stato_dell_auto               VARCHAR(50)              NULL                           
